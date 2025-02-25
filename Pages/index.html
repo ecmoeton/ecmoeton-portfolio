@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>E.C. Moeton - Home</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="..\Images\header-logo.png" alt="Logo">
+            </div>
+            <nav class="main-nav">
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+        <div class="banner">
+            <h1>Elizabeth Christine Moeton</h1>
+            <h2>Software Developer</h2>
+        </div>
+        <div class="container">
+            <div class="section">
+                <h2>Projects</h2>
+                <a href="https://www.github.com/ecmoeton/cv-ecmoeton">Curriculum Vitae (CV)</a>
+            </div>
+            <div class="section">
+                <h2>Work Experience</h2>
+                <div class="work-experience">
+                    <div class="company">
+                        <h3>Marcom Systems - Intern</h3>
+                        <p>Developed features for the Softli POS system and reworked their website.</p>
+                    </div>
+                    <div class="company">
+                        <h3>Freelance Projects - Freelancer</h3>
+                        <p>Built custom websites and small applications for clients.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <h2>Education</h2>
+                <div class="education">
+                    <div class="education-method">
+                        <h3>Firda - Student Software Development</h3>
+                        <p>Specializing experience in HTML, CSS, JavaScript, PHP and SQL.</p>
+                    </div>
+                    <div class="education-method">
+                        <h3>Self-Taught Learning</h3>
+                        <p>Expanding skills through personal projects and following online resources.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="reviews-container">
+            <h2>Reviews</h2>
+            <div class="reviews">
+                <div class="review">
+                    <p>"Amazing work! The project was completed ahead of schedule and exceeded expectations."</p>
+                    <h3>- John Doe</h3>
+                </div>
+                <div class="review">
+                    <p>"A true professional. The attention to detail and creativity is outstanding!"</p>
+                    <h3>- Jane Doe</h3>
+                </div>
+                <div class="review">
+                    <p>"Highly recommended! The quality of work and communication was top-notch."</p>
+                    <h3>- Jade Noe</h3>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <h3>Elizabeth-Christine Moeton © All Rights Reserved 2025</h3>
+        </footer>
+    </body>
+</html>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+    }
+    header{
+        background-color: green;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 15px 20px;
+        background-color: green;
+        color: white;
+    }
+    .logo img{
+        height: 50px;
+    }
+    .main-nav{
+        display: flex;
+        gap: 20px;
+    }
+    .main-nav a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px 15px;
+        transition: 0.3s;
+    }
+    .main-nav a:hover {
+        background-color: #555;
+        border-radius: 5px;
+    }
+    .banner{
+        width: 100%;
+        height: 50vh;
+        background-image: url("../Images/banner-image.jpeg") ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+    .banner h1 {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    .banner h2 {
+        font-size: 1.5rem;
+        font-weight: normal;
+        margin-top: 10px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        padding: 20px;
+        max-width: 1200px;
+        margin: auto;
+    }
+    @media (max-width: 768px) {
+        .container {
+            flex-direction: column;
+        }
+    }
+    .section {
+        flex: 1;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    .section a{
+        text-decoration: none;
+        color: black;
+    }
+    .section h2 {
+        margin-bottom: 15px;
+        color: #333;
+    }
+    .section a:hover{
+        color:chartreuse;
+        transition: 0.3s;
+    }
+    .work-experience {
+        text-align: left;
+        margin-top: 10px;
+    }
+    .company {
+        background-color: #f0f0f0;
+        padding: 10px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .company h3 {
+        margin: 0;
+        font-size: 16px;
+        color: #333;
+    }
+    .company p {
+        margin: 5px 0 0;
+        font-size: 14px;
+        color: #666;
+    }
+    .education {
+        text-align: left;
+        margin-top: 10px;
+    }
+    .education-method {
+        background-color: #f0f0f0;
+        padding: 10px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .education-method h3 {
+        margin: 0;
+        font-size: 16px;
+        color: #333;
+    }
+    .education-method p {
+        margin: 5px 0 0;
+        font-size: 14px;
+        color: #666;
+    }
+    
+    .reviews-container {
+        width: 100%;
+        background-color: white;
+        padding: 40px 0;
+        color: black;
+        text-align: center;
+    }
+    .reviews {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        max-width: 1200px;
+        margin: auto;
+        padding: 5px 0 20px;
+    }
+    .review {
+        flex: 1;
+        background-color: #333;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .review p {
+        font-style: italic;
+        color: #ccc;
+    }
+    .review h3 {
+        margin-top: 10px;
+        color: #fff;
+    }
+    @media (max-width: 768px) {
+        .container, .reviews {
+            flex-direction: column;
+        }
+    }
+
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: green;
+        color: #fff;
+        font-size: 14px;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
